@@ -3,34 +3,14 @@ title: Mapping Documentation
 description: Documentation for mapping
 baseurl: "/mapping-documentation"
 
-remote_theme: pages-themes/architect@v0.2.0
-
 # Theme settings
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 show_downloads: false
-
-# Navigation menu
-menu:
-  - name: "Home"
-    url: "/"
-  - name: "Route map"
-    url: "/route/"
-  - name: "Route landing page maps"
-    url: "/route-landing-page/"
-  - name: "Paragraphs"
-    url: "/paragraph-embeds/"
-  - name: "Modules"
-    url: "/modules/"
-  - name: "Listings"
-    url: "/listings-pages/"
-  - name: "Journey planner"
-    url: "/journey-planner/"
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude files from processing
 exclude:
