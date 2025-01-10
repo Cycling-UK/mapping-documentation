@@ -1,11 +1,11 @@
 # Site settings
 title: Mapping Documentation
 description: Documentation for mapping
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 baseurl: "/mapping-documentation"
 
 # Theme settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 show_downloads: false
 
 # Build settings
