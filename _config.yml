@@ -1,0 +1,26 @@
+# Site settings
+title: Mapping Documentation
+description: Documentation for mappig
+theme: jekyll-theme-minimal
+baseurl: "/mapping-documentation"
+
+# Theme settings
+theme: jekyll-theme-minimal
+show_downloads: false
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Navigation (optional)
+header_pages:
+  - about.md
+  - docs/getting-started.md
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
