@@ -1,25 +1,15 @@
 # Site settings
 title: Mapping Documentation
 description: Documentation for mapping
-theme: jekyll-theme-slate
 baseurl: "/mapping-documentation"
 
+remote_theme: pages-themes/architect@v0.2.0
+
 # Theme settings
-theme: jekyll-theme-slate
+theme: jekyll-theme-architect
 show_downloads: false
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-feed
-
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-
+# Navigation menu
 menu:
   - name: "Home"
     url: "/"
@@ -35,3 +25,16 @@ menu:
     url: "/listings-pages/"
   - name: "Journey planner"
     url: "/journey-planner/"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
