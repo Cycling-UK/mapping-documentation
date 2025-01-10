@@ -4,6 +4,13 @@ title: Map on Route content
 permalink: /route/
 ---
 
+1. [Route map](route-content-type.md)
+2. [Route landing page maps](route-landing-page-content-type.md)
+3. [Paragraphs](paragraph-embeds.md)
+4. [Modules](relevant-modules.md)
+5. [Listings](listing-pages.md)
+6. [Journey planner](journey-planner.md)
+
 # Maps on Route content type
 <img src="../assets/map-doc-route.png" alt="a route page" width="200" style="float: right; padding: 10px;"/>
 

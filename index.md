@@ -1,10 +1,11 @@
 # Mapping documentation
 
-1. [Maps on Route content type](docs/route-content-type.md)
-2. Map embed paragraph types
-3. Journey planner
-4. Maps on Group entity type
-5. Maps on views pages
+1. [Route map](route-content-type.md)
+2. [Route landing page maps](route-landing-page-content-type.md)
+3. [Paragraphs](paragraph-embeds.md)
+4. [Modules](relevant-modules.md)
+5. [Listings](listing-pages.md)
+6. [Journey planner](rjourney-planner.md)
 
 - Anthony’s modules and what they do
   - cyclinguk_gpxdata (in custom directory)
