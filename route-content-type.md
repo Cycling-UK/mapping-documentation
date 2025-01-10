@@ -25,11 +25,11 @@ ___
 
 ## The code behind the scenes
 
-This relies on the Richard F's mapping service which at a codebase seperate to the Drupal website.  On the website we import a series of tools (libraries) and have built a template to embed the map created on Richard's server into the Drupal webpage. We have built a user interface to interact with the embed code present in the template.
+This relies on the Richard F's mapping service which is a codebase seperate to the Drupal website.  On the website we import a series of tools (libraries) and have built a template to embed the map created on Richard's server into the Drupal webpage. We have built a user interface to interact with the embed code present in the template.
 
 The required Libraries for the route content type depend on `cycle_travel_mapping`, a simple module I put together.  The module makes the remote libraries available to the Drupal ecosystem.
 
-The libraries have to be attached to the route content type. There are a variety of ways to do this.  I chose to attach the required libries in the content type twig template, which you can see near the top of the template. It is the single line `{{ attach_library('cycle_travel_mapping/cycle_travel_mapping') }}`.
+The libraries have to be attached to the route content type. There are a variety of ways to do this.  I chose to attach the required libries in the content type twig template, which you can see near the top of the template. It is the single twig curly brace wrapped line `attach_library('cycle_travel_mapping/cycle_travel_mapping')`.
 
 The map embed for the route content type is the simplest of the variety of possible embeds on the site. The embed follows a structure which requires some specific data, for which I've made a number of variable which are introduced into the node via the Drupal user interface as well as from Richard F's system, which itself gets its data from our Drupal mapping APIs.
 
