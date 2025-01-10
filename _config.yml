@@ -15,8 +15,7 @@ plugins:
 
 # Navigation (optional)
 header_pages:
-  - about.md
-  - docs/getting-started.md
+  - docs/route-content-type.md
 
 # Exclude files from processing
 exclude:
