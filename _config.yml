@@ -13,13 +13,25 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
-# Navigation (optional)
-header_pages:
-  - docs/route-content-type.md
-
 # Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+
+menu:
+  - name: "Home"
+    url: "/"
+  - name: "Route map"
+    url: "/route/"
+  - name: "Route landing page maps"
+    url: "/route-landing-page/"
+  - name: "Paragraphs"
+    url: "/paragraph-embeds/"
+  - name: "Modules"
+    url: "/modules/"
+  - name: "Listings"
+    url: "/listings-pages/"
+  - name: "Journey planner"
+    url: "/journey-planner/"

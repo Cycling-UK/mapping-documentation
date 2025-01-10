@@ -1,11 +1,17 @@
-## Maps on Route content type
+---
+layout: page
+title: Map on Route content
+permalink: /route/
+---
+
+# Maps on Route content type
 <img src="../assets/map-doc-route.png" alt="a route page" width="200" style="float: right; padding: 10px;"/>
 
 ### What is it
 
 The route content type is the primary place where Cycling UK routes are displayed on a map. `/admin/structure/types/manage/route/fields`
 
-### How to create a map on a route page
+## How to create a map on a route page
 
 Uploading the gpx file is a requirement of a route page. There are a few steps for this, which sit within "The route" tab on the page edit form.
 
@@ -16,7 +22,7 @@ Uploading the gpx file is a requirement of a route page. There are a few steps f
 
 ___
 
-### The code behind the scenes
+## The code behind the scenes
 
 This relies on the Richard F's mapping service which at a codebase seperate to the Drupal website.  On the website we import a series of tools (libraries) and have built a template to embed the map created on Richard's server into the Drupal webpage. We have built a user interface to interact with the embed code present in the template.
 
