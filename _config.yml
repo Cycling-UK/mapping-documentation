@@ -4,7 +4,7 @@ description: Documentation for mapping
 baseurl: "/mapping-documentation"
 
 # Theme settings
-theme: jekyll-theme-dinky #jekyll-theme-architect #jekyll-theme-tactile #jekyll-theme-slate # jekyll-theme-minimal
+theme: jekyll-theme-merlot #jekyll-theme-architect #jekyll-theme-tactile #jekyll-theme-slate # jekyll-theme-minimal
 show_downloads: false
 
 # Build settings
