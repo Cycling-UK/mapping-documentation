@@ -5,7 +5,7 @@ theme: jekyll-theme-minimal
 baseurl: "/mapping-documentation"
 
 # Theme settings
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 show_downloads: false
 
 # Build settings
