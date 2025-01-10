@@ -1,6 +1,6 @@
 # Mapping documentation
 
-1. Maps on Route content type
+1. [Maps on Route content type](docs/route-content-type.md)
 2. Map embed paragraph types
 3. Journey planner
 4. Maps on Group entity type
