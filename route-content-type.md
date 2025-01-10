@@ -5,14 +5,14 @@
 5. [Listings](listing-pages.md)
 6. [Journey planner](journey-planner.md)
 
-# Maps on Route content type
-<img src="assets/map-doc-route.png" alt="a route page" width="200" style="float: right; padding: 10px;"/>
-
-### What is it
+# Route content type
 
 The route content type is the primary place where Cycling UK routes are displayed on a map. `/admin/structure/types/manage/route/fields`
 
-## How to create a map on a route page
+<img src="assets/map-doc-route.png" alt="a route page" style="padding: 10px;"/>
+
+
+## Map on a route page
 
 Uploading the gpx file is a requirement of a route page. There are a few steps for this, which sit within "The route" tab on the page edit form.
 
