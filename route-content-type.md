@@ -6,7 +6,7 @@
 6. [Journey planner](journey-planner.md)
 
 # Maps on Route content type
-<img src="../assets/map-doc-route.png" alt="a route page" width="200" style="float: right; padding: 10px;"/>
+<img src="assets/map-doc-route.png" alt="a route page" width="200" style="float: right; padding: 10px;"/>
 
 ### What is it
 
@@ -19,7 +19,7 @@ Uploading the gpx file is a requirement of a route page. There are a few steps f
 1. Click the `Choose file` button to browse to find your gpx file and upload it.
 2. After the file is uploaded click the yellow button `PROCESS GPX FOR ROUTE INFORMATION`. This will send the gpx data to the mapping server for analysis and with any luck return some data to populate the route meta data fields below. The meta data fields can also be updated manually if necessary.
 
-<img src="../assets/map-doc-gpx-upload.png" alt="gpx upload" style="padding: 10px;"/>
+<img src="assets/map-doc-gpx-upload.png" alt="gpx upload" style="padding: 10px;"/>
 
 ___
 
@@ -35,6 +35,6 @@ The map embed for the route content type is the simplest of the variety of possi
 
 From the Route template, this is the twig that builds up the embed that inserts the route map:
 
-<img src="../assets/route-twig-map-embed.png" alt="gpx upload" style="padding: 10px;"/>
+<img src="assets/route-twig-map-embed.png" alt="gpx upload" style="padding: 10px;"/>
 
 The fat grey boxes below the map with the meta data get their values form the meta data that is pulled in when the `PROCESS GPX FOR ROUTE INFORMATION` was clicked in the page creation, or later page edit (the values can also be entered manually on edit if required).
