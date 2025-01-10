@@ -1,8 +1,3 @@
----
-layout: page
-title: Modules that mapping depends on
-permalink: /modules/
----
 1. [Route map](route-content-type.md)
 2. [Route landing page maps](route-landing-page-content-type.md)
 3. [Paragraphs](paragraph-embeds.md)

@@ -1,9 +1,3 @@
----
-layout: page
-title: Map on Route content
-permalink: /route/
----
-
 1. [Route map](route-content-type.md)
 2. [Route landing page maps](route-landing-page-content-type.md)
 3. [Paragraphs](paragraph-embeds.md)
