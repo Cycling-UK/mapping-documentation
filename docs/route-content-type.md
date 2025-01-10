@@ -28,7 +28,7 @@ The map embed for the route content type is the simplest of the variety of possi
 
 From the Route template, this is the twig that builds up the embed that inserts the route map:
 
-```
+~~~~~~~~
 {# single route embed #}
   <script>
     window.addEventListener("load", (event) => {
@@ -43,6 +43,6 @@ From the Route template, this is the twig that builds up the embed that inserts 
   })
   </script>
   <div id="map-{% apply spaceless %}{{ routeUUID }}{% endapply %}" class="mapframe"></div>
-```
+~~~~~~~~
 
 The fat grey boxes below the map with the meta data get their values form the meta data that is pulled in when the `PROCESS GPX FOR ROUTE INFORMATION` was clicked in the page creation, or later page edit (the values can also be entered manually on edit if required).
