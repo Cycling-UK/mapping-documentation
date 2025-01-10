@@ -1,6 +1,6 @@
 # Site settings
 title: Mapping Documentation
-description: Documentation for mappig
+description: Documentation for mapping
 theme: jekyll-theme-minimal
 baseurl: "/mapping-documentation"
 
