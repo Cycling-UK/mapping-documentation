@@ -4,6 +4,7 @@
 4. [Modules](relevant-modules.md)
 5. [Listings](listing-pages.md)
 6. [Journey planner](journey-planner.md)
+7. [The Drupal APIs](api.md)
 
 # Modules
 - Anthony’s modules and what they do
@@ -34,7 +35,7 @@ The modules I put together related to mapping are to introduce the required libr
 
 
 
-  - **cycle_travel_mapping** `{{ attach_library('cycle_travel_mapping/cycle_travel_mapping') }}`
-  - **rastermap_embed** `{{ attach_library('rastermap_embed/rastermap') }}`
+  - **cycle_travel_mapping** ```{{ attach_library('cycle_travel_mapping/cycle_travel_mapping') }}```
+  - **rastermap_embed** ```{{ attach_library('rastermap_embed/rastermap') }}```
   - **map_embed** (I think redundant, replaced by cycle_travel_mapping, need to check)
   - **simplemap_embed**
