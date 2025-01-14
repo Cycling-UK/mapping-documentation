@@ -5,8 +5,7 @@
 5. [Listings](listing-pages.md)
 6. [Journey planner](journey-planner.md)
 
-# The variety of listing type pages
 
-## /group-listing etc
-
+# APIs to expose data to Richard F's service
+##
 This is an example page.

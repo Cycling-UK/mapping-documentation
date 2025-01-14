@@ -6,5 +6,5 @@
 6. [Journey planner](journey-planner.md)
 7. [The Drupal APIs](api.md)
 
-# About This Site
+# Journey planner
 This is an example page.
