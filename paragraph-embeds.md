@@ -4,6 +4,7 @@
 4. [Modules](relevant-modules.md)
 5. [Listings](listing-pages.md)
 6. [Journey planner](journey-planner.md)
+7. [The Drupal APIs](api.md)
 
 # Map embeds using paragraph types
 On the EXPERIENCE site I developed a handful of paragraph type so that content editors could embed various types of maps onto any page that uses paragraphs.

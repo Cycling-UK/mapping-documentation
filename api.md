@@ -4,8 +4,6 @@
 4. [Modules](relevant-modules.md)
 5. [Listings](listing-pages.md)
 6. [Journey planner](journey-planner.md)
-7. [The Drupal APIs](api.md)
-
 
 # The variety of listing type pages
 
