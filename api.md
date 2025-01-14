@@ -19,6 +19,7 @@ repackage the data in json format on specified urls. There are several APIs:
 - There is an Event API [www.cyclinguk.org/api/v1/event](https://www.cyclinguk.org/api/v1/event)
     - This API holds the **Event** content type.
     - This is separate because it adding it to the main API causes problems, it would cause the main API to crash.
+
 ### Built in the view at /admin/structure/views/view/endpoint_groups
 Groups as usual are problematic. I cannot build a view that holds both Content and Groups because they are different types of entities in Drupal. So to get Group entity content into the main content API we've implemented an Ian workaround:
 
