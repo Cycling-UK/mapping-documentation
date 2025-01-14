@@ -30,3 +30,6 @@ Below are the existing map embed paragraph types:
 
 #### Typical fields to complete in a map embed paragraph:
 <img src="assets/map-doc-paragraph-type-fields.png" alt="Map embed paragraph fields" style="padding: 10px; max-width: 400px; height: auto;"/>
+
+#### Twig of a map embed paragraph type:
+<img src="assets/map-doc-paragraph-type-twig.png" alt="Map embeds paragraph type twig" style="padding: 10px;"/>
