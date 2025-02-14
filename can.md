@@ -33,7 +33,7 @@ The CAN map paragraph type has six fields:
 2. Text
     *   Introductory text blurb area
 3. Latitude and longitude
-    *   Set the centre point of the map
+    *   Determines the centre point of the map
 4. UK Nation
     *   Selecting a nation, or nations, will restrict the results to those nations selected.
 5. Map zoom
@@ -47,54 +47,10 @@ The CAN map paragraph type has six fields:
 
 paragraph--can-map.html.twig
 
-```
-{# // zoom level done via list text field #}
-{% set zoomSetting = content.field_map_zoom.0|render|trim  %}
+![can-paragraph-twig](assets/can-paragraph-twig.png)
+![can-paragraph-twig](assets/can-paragraph-twig.png)
 
-{# get the lat and long of the location #}
-{% set locationLat = paragraph.field_latitude_longitude.lat %}
-{% set locationLon = paragraph.field_latitude_longitude.lon %}
 
-{# Internal data #}
-{% set internal = content.field_internal_data.0 %}
-
-{# build unique id for the div that houses the embed #}
-{% set map_wrapper = 'map' ~ content.uuid.0|render|trim %}
-
-{# attach Richard's assets using libraries in the map_embed module #}
-{{ attach_library('cycle_travel_mapping/cycle_travel_mapping') }}
-
-{% block paragraph %}
-  <div{{ attributes.addClass(classes) }}>
-    {% block content %}
-      {% if content.field_title.0 is not empty %}
-        <h2 class="cuk-paragraph-title">{{ content.field_title.0 }}</h2>
-      {% endif %}
-      {% if content.field_text.0 is not empty %}
-        <div class="cuk-normal-text cuk-paragraph-narrow-column one-col mb-4 mb-md-5">
-          {{ content.field_text.0 }}
-        </div>
-      {% endif %}
-      <div id="{{ map_wrapper }}" class="mapframe"></div>
-      <script>
-        window.addEventListener("load", (event) => {
-        initialiseMap('{{ map_wrapper }}', {
-          lat: {{ locationLat }},
-          lon: {{ locationLon }},
-          preset: "campaigns",
-          zoom: {{ zoomSetting }},
-          scrollproof: true,
-          {% if content.field_uk_nation is not empty %}nation: "{{ content.field_uk_nation.0['#title'] }}",{% endif %}
-          {% if content.field_internal_data.0['#markup'] == '1' %}auth: "c0f7cb083144ac40",
-          {% endif %}
-          }
-        );
-        })
-      </script>
-    {% endblock %}
-  </div>
-{% endblock paragraph %}
-```
 ## New dev server to understand
 
 We now have a dev instance up and running at https://cycling-uk-dev.cycle.travel/ .
