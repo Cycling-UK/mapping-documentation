@@ -48,7 +48,6 @@ The CAN map paragraph type has six fields:
 paragraph--can-map.html.twig
 
 ![can-paragraph-twig](assets/can-paragraph-twig.png)
-![can-paragraph-twig](assets/can-paragraph-twig.png)
 
 
 ## New dev server to understand
