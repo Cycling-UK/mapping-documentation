@@ -5,6 +5,8 @@
 5. [Listings](listing-pages.md)
 6. [Journey planner](journey-planner.md)
 7. [The Drupal APIs](api.md)
+8. [CAN map paragraph type](can.md)
+
 
 # APIs to expose data to Richard F's service
 
