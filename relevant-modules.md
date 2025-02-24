@@ -16,7 +16,19 @@ This module simply sends data to Richard's world for quick analysis which is the
 ## nearme (in contrib directory)
 Queries Richard's database to produce views with contain an embedded map and attached views list of returned data.  Has custom display format of Richards map to use in views.
 
-Also does the work to get gpx data into Richard's database on saving of route content type data, so in theory maps should appear relatively quickly following content save.
+The Near Me module gives the ability to create a number of views of different mapping related content. These are Area, Route, POI, Event, Group, and Post content. Currently we have four:
+
+* Near me page: [/near-me](https://www.cyclinguk.org/near-me)
+* Routes page: [/route-listing](https://www.cyclinguk.org/route-listing)
+* Events page: [/event-listing-decommissioned](https://www.cyclinguk.org/event-listing-decommissioned) (this is not currently being used because we did not have the smarts to come up with a good way to configure the map together with the list attachment. So so replacement is at [/event-listing](https://www.cyclinguk.org/event-listing))
+* Groups and clubs: [/group-listing](https://www.cyclinguk.org/group-listing)
+
+We don't have the list attachment view enabled on any of the above views. We should revisit that. It could be we simply never understood the existence of and how to use the arguments with the attached list view.
+
+The view is at [cyclinguk.org/admin/structure/views/view/near_me/edit/page_1](https://www.cyclinguk.org/admin/structure/views/view/near_me/edit/page_1)
+
+## Other job
+The Near Me module also does the work to get gpx data into Richard's database on saving of route content type data, so in theory maps should appear relatively quickly following content save.
 
 ## Configuration
 There is a configuration page for the Cycling UK Near Me module.
@@ -27,6 +39,12 @@ It has settings to handle get and push for live and test mapping databases. Also
 
 #### configuration page:
 <img src="./assets/map-doc-near-me-config.png" alt="configuration page" style="padding: 10px;"/>
+
+## To do
+
+Anthony mentions that there should be further work done to the modules to make the libraries dynamic - so that when on the dev mapping the libraries used are dev versions of the libraries, and when on prod the libraries are prod version.
+
+I need to add the gpxdata module to github and figure out the correct way to wire it up via composer with the site codebase.
 
 
 ## Sacha’s modules and what they do
