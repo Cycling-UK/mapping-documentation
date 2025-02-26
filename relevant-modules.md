@@ -6,6 +6,7 @@
 6. [Journey planner](journey-planner.md)
 7. [The Drupal APIs](api.md)
 8. [CAN map paragraph type](can.md)
+9. [The embeds could use improvements](embed-improvement-notes.md)
 
 # Modules
 Anthony’s modules and what they do
@@ -65,13 +66,9 @@ The modules I put together related to mapping are to introduce the required libr
     https://cycling-uk-d9.cycle.travel/maps/third_party/autocomplete.js: { type: external }
     https://cycling-uk-d9.cycle.travel/maps/third_party/uPlot.js: { type: external}
     https://kit.fontawesome.com/9a2e8d8cca.js: { type: external, attributes: { crossorigin: anonymous } }
-    https://cycling-uk-d9.cycle.travel/maps/cycling_uk/scripts/app.js: { attributes: { type: module } }
-    https://cycling-uk-d9.cycle.travel/maps/cycling_uk/scripts/simple_map.js: { attributes: { type: module } }
+    https://cycling-uk-d9.cycle.travel/maps/cycling_uk/scripts/app_bundle.js: { attributes: { type: module } }
 ```
-
-
 
   - **cycle_travel_mapping** ```{{ attach_library('cycle_travel_mapping/cycle_travel_mapping') }}```
   - **rastermap_embed** ```{{ attach_library('rastermap_embed/rastermap') }}```
-  - **map_embed** (I think redundant, replaced by cycle_travel_mapping, need to check)
   - **simplemap_embed**

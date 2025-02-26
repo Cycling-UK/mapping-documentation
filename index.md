@@ -8,6 +8,7 @@
 6. [Journey planner](journey-planner.md)
 7. [The Drupal APIs](api.md)
 8. [CAN map paragraph type](can.md)
+9. [The embeds could use improvements](embed-improvement-notes.md)
 
 
 

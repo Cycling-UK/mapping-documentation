@@ -6,6 +6,7 @@
 6. [Journey planner](journey-planner.md)
 7. [The Drupal APIs](api.md)
 8. [CAN map paragraph type](can.md)
+9. [The embeds could use improvements](embed-improvement-notes.md)
 
 ## CAN maps to appear on these pages:
 
@@ -33,7 +34,7 @@ The CAN map paragraph type has six fields:
 2. Text
     *   Introductory text blurb area
 3. Latitude and longitude
-    *   Determines the centre point of the map
+    *   Set the centre point of the map
 4. UK Nation
     *   Selecting a nation, or nations, will restrict the results to those nations selected.
 5. Map zoom
