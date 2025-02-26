@@ -10,14 +10,14 @@
 
 # Notes on doing a better map embed
 
-Your current approach to embedding JavaScript in your Drupal 10 Twig template looks functional, but there are better practices you can implement. Let's explore the recommended methods for including JavaScript in Drupal 10.
+Current approach to embedding JavaScript in Drupal Twig template is functional, but there are better practices to implement.
 
 ## Recommended Approaches
 ### 1. Use Drupal's Asset Library System
-The best practice in Drupal 10 is to use the asset library system rather than inline JavaScript. This gives you better caching, performance, and maintainability.
+The best practice in Drupal 10 is to use the asset library system rather than inline JavaScript. This gives better caching, performance, and maintainability.
 
-```// In your_module.libraries.yml
-your_map_library:
+### In libraries.yml
+```map_library:
   js:
     js/map-initializer.js: {}
   dependencies:
@@ -25,7 +25,7 @@ your_map_library:
     - core/jquery
     - core/once
 ```
-### Then in your JS file:
+### Then in JS file:
 
 ```
 (function (Drupal) {
@@ -52,9 +52,9 @@ your_map_library:
   };
 })(Drupal);
 ```
-### In your Twig template:
+### In Twig template:
 ```
-{{ attach_library('your_module/your_map_library') }}
+{{ attach_library('module/map_library') }}
 
 <div id="map-{{ routeUUID|trim }}"
      data-route-id="{{ routeUUID|render|trim }}"
@@ -80,7 +80,7 @@ $variables['#attached']['drupalSettings']['yourMapModule']['maps'][$routeUUID] =
   'scrollproof' => true
 ];
 
-$variables['#attached']['library'][] = 'your_module/your_map_library';
+$variables['#attached']['library'][] = 'module/map_library';
 ```
 
 Then in your JS:
@@ -105,7 +105,7 @@ Then in your JS:
   };
 })(Drupal);
 ```
-### 3. If You Must Use Inline JavaScript (Not Recommended)
+### 3. If must use inline JavaScript (Not Recommended)
 If you absolutely need to keep your inline approach, you can make it cleaner:
 **(this is currently what's on the route content type)**
 ```
