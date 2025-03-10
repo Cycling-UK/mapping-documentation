@@ -32,6 +32,8 @@ To make this work I've had to work on the **cycle_travel_mapping module** so tha
 
 The switching logic uses hook_library_info_alter.  This can be found in the .module file for the curious. You can check which version of the libraries have loaded in the Sources tab in dev tools, which on stage.cyclinguk.org should have *cycling-uk-dev.cycle.travel* in the sources tab. If it doesn't then something is wrong.  In all other environments it will have cycling-uk-d9.cycle.travel as the source.
 
+**TODO:** Implement the same style switch in the **rastermap_embed module**.
+
 ## GET and PUSH map data configuration
 
 **IMPORTANT:** Anthony's Near me module contains some configuration settings which make the dev server of use.
