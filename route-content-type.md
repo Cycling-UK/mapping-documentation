@@ -7,6 +7,7 @@
 7. [The Drupal APIs](api.md)
 8. [CAN map paragraph type](can.md)
 9. [The embeds could use improvements](embed-improvement-notes.md)
+10. [The mapping dev server](devserver.md)
 
 # Route content type
 

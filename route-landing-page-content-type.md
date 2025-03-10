@@ -7,6 +7,7 @@
 7. [The Drupal APIs](api.md)
 8. [CAN map paragraph type](can.md)
 9. [The embeds could use improvements](embed-improvement-notes.md)
+10. [The mapping dev server](devserver.md)
 
 # Route landing page
 The route landing page has two different types of map embeds which can display.
