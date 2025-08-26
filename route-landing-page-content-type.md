@@ -8,6 +8,7 @@
 8. [CAN map paragraph type](can.md)
 9. [The embeds could use improvements](embed-improvement-notes.md)
 10. [The mapping dev server](devserver.md)
+11. [Mapping - tag map paragraph type](tagmap.md)
 
 # Route landing page
 The route landing page has two different types of map embeds which can display.

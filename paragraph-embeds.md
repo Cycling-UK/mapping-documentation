@@ -8,6 +8,7 @@
 8. [CAN map paragraph type](can.md)
 9. [The embeds could use improvements](embed-improvement-notes.md)
 10. [The mapping dev server](devserver.md)
+11. [Mapping - tag map paragraph type](tagmap.md)
 
 # Map embeds using paragraph types
 On the EXPERIENCE site I developed a handful of paragraph type so that content editors could embed various types of maps onto any page that uses paragraphs.

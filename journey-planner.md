@@ -8,6 +8,7 @@
 8. [CAN map paragraph type](can.md)
 9. [The embeds could use improvements](embed-improvement-notes.md)
 10. [The mapping dev server](devserver.md)
+11. [Mapping - tag map paragraph type](tagmap.md)
 
 # Journey planner
 The <a href="https://www.cyclinguk.org/journey-planner" target="_blank">journey planner</a> is an embed provided by Richard which has it's own individual node twig template at themes/custom/cyclinguk/templates/node/node--796896--full.html.twig
