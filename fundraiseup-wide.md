@@ -19,7 +19,7 @@ Currently only available for use on the Landing Page content type.
 
 The FundraiseUp wide image donate paragraph type requires:
 
-* A suitable image to use for the backgrtound, that can comfortably go edge to edge and has its subject area in the central portion of the image.
+* A suitable image to use for the backgrtound, that can comfortably go edge to edge and has its subject area in the central portion of the image. You can only select and place an image.  There is no the 'focal point' functionality like we have on hero images.
 * A headline
 * A sub-headline
 * Suitably configured line of embed code for a donate button. This is obtained from the FundraiseUp backend.
