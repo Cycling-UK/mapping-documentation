@@ -15,5 +15,16 @@
 
 # FundraiseUp wide image donate paragraph type
 
+Currently only available for use on the Landing Page content type.
+
+The FundraiseUp wide image donate paragraph type requires:
+
+* A suitable image to use for the backgrtound, that can comfortably go edge to edge and has its subject area in the central portion of the image.
+* A headline
+* A sub-headline
+* Suitably configured line of embed code for a donate button. This is obtained from the FundraiseUp backend.
+* Suitably configured line of embed code for a donate form. This is obtained from the FundraiseUp backend.
+
+
 #### The button and form embeds in the paragraph:
 <img src="assets/theparagraph-inserts.jpg" alt="The paragraph" style="padding: 10px;"/>
