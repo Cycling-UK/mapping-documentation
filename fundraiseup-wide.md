@@ -13,12 +13,7 @@
 * FundraiseUp
     1. [FundraiseUp wide image donate paragraph type](fundraiseup-wide.md)
 
+# FundraiseUp wide image donate paragraph type
 
-# Journey planner
-The <a href="https://www.cyclinguk.org/journey-planner" target="_blank">journey planner</a> is an embed provided by Richard which has it's own individual node twig template at themes/custom/cyclinguk/templates/node/node--796896--full.html.twig
-
-#### A portion of the twig template:
-<img src="assets/map-doc-journey-planner-twig.png" alt="journey planner twig" style="padding: 10px;"/>
-
-#### The journey planner:
-<img src="assets/map-doc-journey-planner.png" alt="journey planner" style="padding: 10px;"/>
+#### The button and form embeds in the paragraph:
+<img src="assets/theparagraph-inserts.jpg" alt="The paragraph" style="padding: 10px;"/>
